@@ -26,6 +26,11 @@ public class OrderPage {
     private SelenideElement submit = $(".form-field .button");
     private SelenideElement approve = $(byText("Операция одобрена Банком."));
     private SelenideElement decline = $(byText("Ошибка! Банк отказал в проведении операции."));
+    private SelenideElement yearError = $(byText("Истёк срок действия карты"));
+    private SelenideElement monthError = $(byText("Неверно указан срок действия карты"));
+    private SelenideElement nameError = $(byText("Неверно указано имя владельца карты"));
+    private SelenideElement emptyError = $(byText("Поле обязательно для заполнения"));
+    private SelenideElement request = $(withText("Отправляем запрос"));
 
     public OrderPage() {
         heading.shouldBe(visible);
@@ -53,15 +58,37 @@ public class OrderPage {
         holder.setValue(card.getName());
         cvc.setValue(card.getCvc());
         submit.click();
+
     }
 
     public void approveTransaction() {
+        request.shouldBe(visible, Duration.ofSeconds(2));
         approve.shouldBe(visible, Duration.ofSeconds(10));
-
     }
 
     public void declineTransaction() {
+        request.shouldBe(visible, Duration.ofSeconds(2));
         decline.shouldBe(visible, Duration.ofSeconds(10));
+    }
+
+    public void invalidYear() {
+        request.shouldNotBe(visible, Duration.ofSeconds(2));
+        yearError.shouldBe(visible, Duration.ofSeconds(1));
+    }
+
+    public void invalidMonth() {
+        request.shouldNotBe(visible, Duration.ofSeconds(2));
+        monthError.shouldBe(visible, Duration.ofSeconds(1));
+    }
+
+    public void invalidName() {
+        request.shouldNotBe(visible, Duration.ofSeconds(2));
+        nameError.shouldBe(visible, Duration.ofSeconds(1));
+    }
+
+    public void emptyField() {
+        request.shouldNotBe(visible, Duration.ofSeconds(2));
+        emptyError.shouldBe(visible, Duration.ofSeconds(1));
     }
 
 

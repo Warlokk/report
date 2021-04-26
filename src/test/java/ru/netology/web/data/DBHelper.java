@@ -5,7 +5,9 @@ import lombok.val;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
+
 import java.sql.*;
+
 
 public class DBHelper {
     private final static QueryRunner runner = new QueryRunner();
@@ -15,6 +17,8 @@ public class DBHelper {
     private static Connection getConnect() {
         return DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/postgres", "user", "pass"
+//                "jdbc:mysql://localhost:3306/mysql", "user", "pass"
+
         );
     }
 
@@ -61,18 +65,5 @@ public class DBHelper {
         val query = "SELECT credit_id FROM order_entity ORDER BY created DESC";
         return runner.query(conn, query, new ScalarHandler<>());
     }
-
-//    @SneakyThrows
-//    public static int getCardBalance(String id) {
-//        val balanceSQL = "SELECT balance_in_kopecks FROM cards WHERE id ='" + id + "';";
-//        int balance = runner.query(conn, balanceSQL, new ScalarHandler<>());
-//        return (balance / 100);
-//    }
-//
-//    @SneakyThrows
-//    public static String getCardNumber(String id) {
-//        val statusSQL = "SELECT number FROM cards WHERE id ='" + id + "';";
-//        return runner.query(conn, statusSQL, new ScalarHandler<>());
-//    }
 
 }

@@ -16,11 +16,11 @@ public class DataGenerator {
         private String month;
         private String year;
         private String cvc;
+
     }
 
     public static CardInfo getRandomCard() {
         val faker = new Faker();
-        val number = faker.business().creditCardNumber();
         String month = LocalDate.now().plusMonths(2).format(DateTimeFormatter.ofPattern("MM"));
         String year = LocalDate.now().plusYears(3).format(DateTimeFormatter.ofPattern("yy"));
         val cvc = faker.number().digits(3);
