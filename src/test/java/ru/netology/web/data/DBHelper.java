@@ -5,21 +5,27 @@ import lombok.val;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
-
 import java.sql.*;
+
+import static ru.netology.web.test.OrderTest.getMySql;
 
 
 public class DBHelper {
     private final static QueryRunner runner = new QueryRunner();
     private final static Connection conn = getConnect();
 
+
     @SneakyThrows
     private static Connection getConnect() {
-        return DriverManager.getConnection(
-                "jdbc:postgresql://localhost:5432/postgres", "user", "pass"
-//                "jdbc:mysql://localhost:3306/mysql", "user", "pass"
-
-        );
+        Boolean mySql = getMySql();
+        if (mySql) {
+            return DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/mysql", "user", "pass"
+            );
+        } else
+            return DriverManager.getConnection(
+                    "jdbc:postgresql://localhost:5432/postgres", "user", "pass"
+            );
     }
 
     @SneakyThrows
