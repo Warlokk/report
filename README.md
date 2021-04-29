@@ -16,5 +16,5 @@
     * `"java -jar aqa-shop.jar"` для работы с СУБД postgreSQL
     * `"java -jar -Dspring.profiles.active=mySql aqa-shop.jar"` для работы с СУБД mySQL, также необходимо в классе OrderTest установить значение переменной `mySql = true`
 1. Запустить тесты одним из способов:
-    * из командной строки `"gradlew clean test Allurereport"`
+    * из командной строки `"gradlew clean test allureReport"`
     * из интерфейса IntelliJ Idea в классе OrderTest.
