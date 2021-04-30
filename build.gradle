@@ -36,10 +36,12 @@ dependencies {
 
 }
 
+
 test {
     useJUnitPlatform()
     systemProperty 'selenide.headless', System.getProperty('selenide.headless')
-    systemProperty 'url', System.getProperty('spring.datasource.url')
-    systemProperty 'name', System.getProperty('spring.datasource.username')
-    systemProperty 'pass',  System.getProperty('spring.datasource.password')
+    systemProperty 'url', System.getProperty("url", "jdbc:postgresql://localhost:5432/postgres")
+    systemProperty 'user', "user"
+    systemProperty 'pass', "pass"
+
 }

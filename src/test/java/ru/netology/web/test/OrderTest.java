@@ -17,11 +17,6 @@ public class OrderTest {
     private CardInfo invalidCard;
     private OrderPage page;
     private final int amount = 45000;
-    private static Boolean mySql = false; // set to "true" yo use "mySql"
-
-    public static Boolean getMySql() {
-        return mySql;
-    }
 
     @BeforeAll
     static void setUpAll() {

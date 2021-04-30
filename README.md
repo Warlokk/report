@@ -14,7 +14,8 @@
 1. Запустить контейнеры Node.Js, postgreSQL, mySql с помощью `"docker-compose up"`
 1. Запустить приложение из папки `artifacts` командой:
     * `"java -jar aqa-shop.jar"` для работы с СУБД postgreSQL
-    * `"java -jar -Dspring.profiles.active=mySql aqa-shop.jar"` для работы с СУБД mySQL, также необходимо в классе OrderTest установить значение переменной `mySql = true`
+    * `"java -jar -Dspring.profiles.active=mySql aqa-shop.jar"` для работы с СУБД mySQL
 1. Запустить тесты одним из способов:
-    * из командной строки `"gradlew clean test allureReport"`
-    * из интерфейса IntelliJ Idea в классе OrderTest.
+    * из командной строки `"gradlew clean test --info"` для работы с СУБД postgreSQL
+    * из командной строки `"gradlew clean test -Durl="jdbc:mysql://localhost:3306/mysql" --info"` для работы с СУБД mySQL
+1. Запустить создание отчета **AllureReport** командой `gradlew allureReport` и(опционально) `gradlew allureServe` для запуска отчёта.

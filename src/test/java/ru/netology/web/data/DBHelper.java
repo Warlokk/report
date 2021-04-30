@@ -7,25 +7,20 @@ import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import java.sql.*;
 
-import static ru.netology.web.test.OrderTest.getMySql;
-
-
 public class DBHelper {
     private final static QueryRunner runner = new QueryRunner();
     private final static Connection conn = getConnect();
 
+
     @SneakyThrows
     private static Connection getConnect() {
-        Boolean mySql = getMySql();
-        if (mySql) {
-            return DriverManager.getConnection(
 
-                    "jdbc:mysql://localhost:3306/mysql", "user", "pass"
-            );
-        } else
-            return DriverManager.getConnection(
-                    "jdbc:postgresql://localhost:5432/postgres", "user", "pass"
-            );
+        return DriverManager.getConnection(
+
+                System.getProperty("url"),
+                System.getProperty("user"),
+                System.getProperty("pass")
+        );
     }
 
     @SneakyThrows
