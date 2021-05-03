@@ -19,3 +19,5 @@
     * из командной строки `"gradlew clean test --info"` для работы с СУБД postgreSQL
     * из командной строки `"gradlew clean test -Durl="jdbc:mysql://localhost:3306/mysql" --info"` для работы с СУБД mySQL
 1. Запустить создание отчета **AllureReport** командой `gradlew allureReport` и(опционально) `gradlew allureServe` для запуска отчёта.
+
+[![Java CI with Gradle](https://github.com/Warlokk/QA-Diploma/actions/workflows/gradle.yml/badge.svg)](https://github.com/Warlokk/QA-Diploma/actions/workflows/gradle.yml)
