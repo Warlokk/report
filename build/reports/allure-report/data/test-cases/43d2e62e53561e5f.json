@@ -1,0 +1,263 @@
+{
+  "uid" : "43d2e62e53561e5f",
+  "name" : "shouldNotPaymentInvalidYear()",
+  "fullName" : "ru.netology.web.test.OrderTest$PaymentTest.shouldNotPaymentInvalidYear",
+  "historyId" : "2f57f1b549a0db7d1e8bcdd955835b3e",
+  "time" : {
+    "start" : 1620035379476,
+    "stop" : 1620035380307,
+    "duration" : 831
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1620035379476,
+        "stop" : 1620035379503,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"h2\") should have(exact text 'Путешествие дня')",
+      "time" : {
+        "start" : 1620035379503,
+        "stop" : 1620035379527,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"h2\") should be(visible)",
+      "time" : {
+        "start" : 1620035379527,
+        "stop" : 1620035379552,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Купить\") click()",
+      "time" : {
+        "start" : 1620035379564,
+        "stop" : 1620035379634,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Оплата по карте\") should be([visible, 3 s.])",
+      "time" : {
+        "start" : 1620035379634,
+        "stop" : 1620035379661,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [maxlength='19']\") set value(4444 4444 4444 4441)",
+      "time" : {
+        "start" : 1620035379661,
+        "stop" : 1620035379785,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='08']\") set value(07)",
+      "time" : {
+        "start" : 1620035379785,
+        "stop" : 1620035379885,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='22']\") set value(20)",
+      "time" : {
+        "start" : 1620035379885,
+        "stop" : 1620035379974,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__control[3]\") set value(Tegan VonRueden)",
+      "time" : {
+        "start" : 1620035379974,
+        "stop" : 1620035380095,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='999']\") set value(843)",
+      "time" : {
+        "start" : 1620035380095,
+        "stop" : 1620035380198,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".form-field .button\") click()",
+      "time" : {
+        "start" : 1620035380198,
+        "stop" : 1620035380254,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"with text: Отправляем запрос\") should not be([visible, 2 s.])",
+      "time" : {
+        "start" : 1620035380254,
+        "stop" : 1620035380269,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Истёк срок действия карты\") should be([visible, 1 s.])",
+      "time" : {
+        "start" : 1620035380269,
+        "stop" : 1620035380302,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Warlokk"
+  }, {
+    "name" : "thread",
+    "value" : "6684@Warlokk.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.web.test.OrderTest$PaymentTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.web.test.OrderTest$PaymentTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldNotPaymentInvalidYear"
+  }, {
+    "name" : "suite",
+    "value" : "Payment functionality test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43d2e62e53561e5f.json",
+  "parameterValues" : [ ]
+}

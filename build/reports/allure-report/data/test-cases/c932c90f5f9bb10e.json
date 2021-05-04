@@ -1,0 +1,263 @@
+{
+  "uid" : "c932c90f5f9bb10e",
+  "name" : "shouldNotCreditAnotherCard()",
+  "fullName" : "ru.netology.web.test.OrderTest$CreditTest.shouldNotCreditAnotherCard",
+  "historyId" : "1555780d62b10106613573a1d95b0c76",
+  "time" : {
+    "start" : 1620035313006,
+    "stop" : 1620035322713,
+    "duration" : 9707
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1620035313006,
+        "stop" : 1620035313046,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"h2\") should have(exact text 'Путешествие дня')",
+      "time" : {
+        "start" : 1620035313046,
+        "stop" : 1620035313068,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"h2\") should be(visible)",
+      "time" : {
+        "start" : 1620035313068,
+        "stop" : 1620035313092,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Купить в кредит\") click()",
+      "time" : {
+        "start" : 1620035313106,
+        "stop" : 1620035313175,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Кредит по данным карты\") should be([visible, 3 s.])",
+      "time" : {
+        "start" : 1620035313175,
+        "stop" : 1620035313202,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [maxlength='19']\") set value(1228-1221-1221-1431)",
+      "time" : {
+        "start" : 1620035313202,
+        "stop" : 1620035313341,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='08']\") set value(07)",
+      "time" : {
+        "start" : 1620035313341,
+        "stop" : 1620035313446,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='22']\") set value(24)",
+      "time" : {
+        "start" : 1620035313446,
+        "stop" : 1620035313539,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__control[3]\") set value(Emanuel Mayer)",
+      "time" : {
+        "start" : 1620035313539,
+        "stop" : 1620035313654,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='999']\") set value(087)",
+      "time" : {
+        "start" : 1620035313654,
+        "stop" : 1620035313761,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".form-field .button\") click()",
+      "time" : {
+        "start" : 1620035313761,
+        "stop" : 1620035313818,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"with text: Отправляем запрос\") should be([visible, 2 s.])",
+      "time" : {
+        "start" : 1620035313818,
+        "stop" : 1620035313847,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Ошибка! Банк отказал в проведении операции.\") should be([visible, 10 s.])",
+      "time" : {
+        "start" : 1620035313847,
+        "stop" : 1620035322707,
+        "duration" : 8860
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Warlokk"
+  }, {
+    "name" : "thread",
+    "value" : "6684@Warlokk.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.web.test.OrderTest$CreditTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.web.test.OrderTest$CreditTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldNotCreditAnotherCard"
+  }, {
+    "name" : "suite",
+    "value" : "Credit functionality test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c932c90f5f9bb10e.json",
+  "parameterValues" : [ ]
+}

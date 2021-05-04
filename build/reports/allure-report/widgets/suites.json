@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "f25d1d323d5e76352d3c6df99feb4a77",
+    "name" : "Credit functionality test",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "ff06ba0cea7a4433f075fdd230f7aabd",
+    "name" : "Payment functionality test",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 11
+    }
+  } ]
+}

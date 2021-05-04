@@ -1,0 +1,431 @@
+{
+  "c817389f689656d1318099843302b5fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f65f8f5fc26e39b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035322716,
+        "stop" : 1620035323540,
+        "duration" : 824
+      }
+    } ]
+  },
+  "a845bbef8bf40657a9d4f0d36d58c814" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5163d6b65d9a082a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035293917,
+        "stop" : 1620035294773,
+        "duration" : 856
+      }
+    } ]
+  },
+  "27e2e2856367bfba0a267e39a68b140f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c0591c6ba3db28c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035372398,
+        "stop" : 1620035373245,
+        "duration" : 847
+      }
+    } ]
+  },
+  "26e1e6902c6b02b34d5d1058df171e67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3ff397810008a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035336838,
+        "stop" : 1620035346820,
+        "duration" : 9982
+      }
+    } ]
+  },
+  "e43dfaf239704135aba11fe5ea835514" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76505fbc11f2d354",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035376062.8.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035376062.8.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1620035374115,
+        "stop" : 1620035376284,
+        "duration" : 2169
+      }
+    } ]
+  },
+  "cd46a4f055730a3670a4e20187ca34cc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b38d4f75fe604e66",
+      "status" : "failed",
+      "statusDetails" : "Element should not be visible {with text: Отправляем запрос}\r\nElement: '<span class=\"button__text\"> Отправляем запрос в Банк...</span>'\r\nActual value: visible:true\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035311864.2.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035311864.2.html\r\nTimeout: 2 s.",
+      "time" : {
+        "start" : 1620035309090,
+        "stop" : 1620035312151,
+        "duration" : 3061
+      }
+    } ]
+  },
+  "2f57f1b549a0db7d1e8bcdd955835b3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43d2e62e53561e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035379476,
+        "stop" : 1620035380307,
+        "duration" : 831
+      }
+    } ]
+  },
+  "315b7b1ec814a75bc55737a54bbecb8d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2f04ebf653ca1d8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035348767.5.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035348767.5.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1620035346824,
+        "stop" : 1620035348988,
+        "duration" : 2164
+      }
+    } ]
+  },
+  "d5fd48b16dc721b990ad4b92aae92c02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ced04df4f42825b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035312154,
+        "stop" : 1620035313004,
+        "duration" : 850
+      }
+    } ]
+  },
+  "d72009967faf23bc8c3bae818103699e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7794d70d3ce58efe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035360146,
+        "stop" : 1620035370267,
+        "duration" : 10121
+      }
+    } ]
+  },
+  "b686db38ddc84ab9f9f7dc6da8966ecc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51a5f211eee8bbd6",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035336609.4.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035336609.4.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1620035334720,
+        "stop" : 1620035336834,
+        "duration" : 2114
+      }
+    } ]
+  },
+  "410d6871e33355dcb6e3f9f1965a64a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "859947f2bcdef8e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035289136,
+        "stop" : 1620035293847,
+        "duration" : 4711
+      }
+    } ]
+  },
+  "1555780d62b10106613573a1d95b0c76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c932c90f5f9bb10e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035313006,
+        "stop" : 1620035322713,
+        "duration" : 9707
+      }
+    } ]
+  },
+  "e34f623182ad09fc068c103c578cc96f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8833e87a1b70b684",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035380308,
+        "stop" : 1620035381099,
+        "duration" : 791
+      }
+    } ]
+  },
+  "d16fb8ae03e959792b4f0124fe08ea17" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a06acfedfc867853",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035308860.1.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035308860.1.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1620035306869,
+        "stop" : 1620035309086,
+        "duration" : 2217
+      }
+    } ]
+  },
+  "428e5ef68d3d1e0110b9ae8f79dec7ff" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e2245958be3f943",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035334465.3.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035334465.3.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1620035323542,
+        "stop" : 1620035334717,
+        "duration" : 11175
+      }
+    } ]
+  },
+  "9cc24c8843c88f9fa94a9720f1e8e274" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12a4e110d53be94",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035296745.0.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035296745.0.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1620035294815,
+        "stop" : 1620035296990,
+        "duration" : 2175
+      }
+    } ]
+  },
+  "b5e853db458c6fb3d5d1d251d6d22a7c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c7e07d53b3c7ca7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035372143.7.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035372143.7.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1620035370272,
+        "stop" : 1620035372367,
+        "duration" : 2095
+      }
+    } ]
+  },
+  "e0dfdbf7c38f8f9ca719186da32d7d94" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80c08279505bcd61",
+      "status" : "failed",
+      "statusDetails" : "expected: <null> but was: <97789a74-fcab-4162-bb7f-253892d0f549>",
+      "time" : {
+        "start" : 1620035296997,
+        "stop" : 1620035306865,
+        "duration" : 9868
+      }
+    } ]
+  },
+  "bebfb9cadf69e908a572cb41c2b806d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52b3876349068395",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620035373247,
+        "stop" : 1620035374112,
+        "duration" : 865
+      }
+    } ]
+  },
+  "5cf26e5f29f61ee839804b1a9699ff41" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a049118977d10592",
+      "status" : "failed",
+      "statusDetails" : "Element should not be visible {with text: Отправляем запрос}\r\nElement: '<span class=\"button__text\"> Отправляем запрос в Банк...</span>'\r\nActual value: visible:true\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035379174.9.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035379174.9.html\r\nTimeout: 2 s.",
+      "time" : {
+        "start" : 1620035376286,
+        "stop" : 1620035379474,
+        "duration" : 3188
+      }
+    } ]
+  },
+  "565f53e52084c8a533b2665fdf44c37e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "109e4279791bab7b",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035359886.6.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035359886.6.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1620035348990,
+        "stop" : 1620035360143,
+        "duration" : 11153
+      }
+    } ]
+  }
+}

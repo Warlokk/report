@@ -1,0 +1,196 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035296745.0.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035296745.0.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldNotCreditEmptyYear()",
+        "uid" : "12a4e110d53be94",
+        "parentUid" : "6aeac80b3336044f7c50a86b9e8cb29e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035294815,
+          "stop" : 1620035296990,
+          "duration" : 2175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6aeac80b3336044f7c50a86b9e8cb29e"
+    }, {
+      "name" : "expected: <null> but was: <97789a74-fcab-4162-bb7f-253892d0f549>",
+      "children" : [ {
+        "name" : "shouldCreditApprovedCard()",
+        "uid" : "80c08279505bcd61",
+        "parentUid" : "04befbb5b66f430fed16f040218f5edc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035296997,
+          "stop" : 1620035306865,
+          "duration" : 9868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04befbb5b66f430fed16f040218f5edc"
+    }, {
+      "name" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035308860.1.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035308860.1.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldNotCreditEmptyMonth()",
+        "uid" : "a06acfedfc867853",
+        "parentUid" : "8e5322cc2f258aff2a1548b9f1c5dedd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035306869,
+          "stop" : 1620035309086,
+          "duration" : 2217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e5322cc2f258aff2a1548b9f1c5dedd"
+    }, {
+      "name" : "Element should not be visible {with text: Отправляем запрос}\r\nElement: '<span class=\"button__text\"> Отправляем запрос в Банк...</span>'\r\nActual value: visible:true\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035311864.2.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035311864.2.html\r\nTimeout: 2 s.",
+      "children" : [ {
+        "name" : "shouldNotCreditInvalidName()",
+        "uid" : "b38d4f75fe604e66",
+        "parentUid" : "d618b7a43c85892165d185f505a0e5ac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035309090,
+          "stop" : 1620035312151,
+          "duration" : 3061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d618b7a43c85892165d185f505a0e5ac"
+    }, {
+      "name" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035334465.3.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035334465.3.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "shouldNotCreditDeclinedCard()",
+        "uid" : "5e2245958be3f943",
+        "parentUid" : "6766a14855f4b4b9f71132ae65690b5b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035323542,
+          "stop" : 1620035334717,
+          "duration" : 11175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6766a14855f4b4b9f71132ae65690b5b"
+    }, {
+      "name" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035336609.4.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035336609.4.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldNotCreditEmptyNumber()",
+        "uid" : "51a5f211eee8bbd6",
+        "parentUid" : "9e9c99e1152ca9a9e529394aa3ae8e2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035334720,
+          "stop" : 1620035336834,
+          "duration" : 2114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e9c99e1152ca9a9e529394aa3ae8e2c"
+    }, {
+      "name" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035348767.5.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035348767.5.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldNotPaymentEmptyMonth()",
+        "uid" : "a2f04ebf653ca1d8",
+        "parentUid" : "4b6364f965169773486488f3ce7883c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035346824,
+          "stop" : 1620035348988,
+          "duration" : 2164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b6364f965169773486488f3ce7883c3"
+    }, {
+      "name" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035359886.6.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035359886.6.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "shouldNotPaymentDeclinedCard()",
+        "uid" : "109e4279791bab7b",
+        "parentUid" : "875b34a4c5107d401f970f816480cbf1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035348990,
+          "stop" : 1620035360143,
+          "duration" : 11153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "875b34a4c5107d401f970f816480cbf1"
+    }, {
+      "name" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035372143.7.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035372143.7.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldNotPaymentEmptyNumber()",
+        "uid" : "9c7e07d53b3c7ca7",
+        "parentUid" : "7e505a2c88555e717b337b01762da64f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035370272,
+          "stop" : 1620035372367,
+          "duration" : 2095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e505a2c88555e717b337b01762da64f"
+    }, {
+      "name" : "Element not found {by text: Поле обязательно для заполнения}\r\nExpected: visible\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035376062.8.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035376062.8.html\r\nTimeout: 1 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldNotPaymentEmptyYear()",
+        "uid" : "76505fbc11f2d354",
+        "parentUid" : "135c0a245dc688fa4a09b398ae47d339",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035374115,
+          "stop" : 1620035376284,
+          "duration" : 2169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "135c0a245dc688fa4a09b398ae47d339"
+    }, {
+      "name" : "Element should not be visible {with text: Отправляем запрос}\r\nElement: '<span class=\"button__text\"> Отправляем запрос в Банк...</span>'\r\nActual value: visible:true\r\nScreenshot: file:/D:/Diploma2/build/reports/tests/1620035379174.9.png\r\nPage source: file:/D:/Diploma2/build/reports/tests/1620035379174.9.html\r\nTimeout: 2 s.",
+      "children" : [ {
+        "name" : "shouldNotPaymentInvalidName()",
+        "uid" : "a049118977d10592",
+        "parentUid" : "0abb79b792144b70b8c407b11f08d48f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620035376286,
+          "stop" : 1620035379474,
+          "duration" : 3188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0abb79b792144b70b8c407b11f08d48f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
